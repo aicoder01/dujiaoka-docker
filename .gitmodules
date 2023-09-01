@@ -1,6 +1,6 @@
 [submodule "dujiaoka"]
 	path = dujiaoka
-	url = https://github.com/assimon/dujiaoka
+	url = https://github.com/aicoder01/dujiaoka
 [submodule "usdt"]
 	path = usdt
 	url = https://github.com/assimon/epusdt
