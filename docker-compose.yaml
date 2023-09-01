@@ -12,7 +12,8 @@ services:
       - ./test/storage:/dujiaoka/storage
       - ./test/env.conf:/dujiaoka/.env
     ports:
-      - 80
+      - "80:80"
+      - "9000:9000"
     restart: always
 
   db:
