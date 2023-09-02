@@ -9,6 +9,7 @@ COPY dujiaoka/ /dujiaoka
 COPY ./conf/default.conf /opt/docker/etc/nginx/vhost.conf
 COPY ./conf/dujiao.conf /opt/docker/etc/supervisor.d/
 COPY start.sh /
+COPY start-hook.sh /
 
 RUN set -xe \
     && composer install -vvv \
