@@ -15,7 +15,6 @@ RUN set -xe \
     && chmod +x /start.sh \
     && chown -R application:application /dujiaoka/ \
     && chmod -R 0755 /dujiaoka/ \
-    && mv /dujiaoka/storage /dujiaoka/storage_bak \
     && sed -i "s?\$proxies;?\$proxies=\'\*\*\';?" /dujiaoka/app/Http/Middleware/TrustProxies.php \
     && rm -rf /root/.composer/cache/ /tmp/*
 
