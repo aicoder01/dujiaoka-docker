@@ -16,7 +16,7 @@ if [ -f "/dujiaoka/.env" ]; then
        
     fi
 
-    bash /dujiaoka/start-hook.sh
+    # bash /dujiaoka/start-hook.sh
 
     chmod -R 777 storage
 
